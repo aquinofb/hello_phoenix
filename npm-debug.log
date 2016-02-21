@@ -1,0 +1,754 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.4.9
+3 info using node@v0.10.28
+4 verbose readDependencies using package.json deps
+5 verbose install where, deps [ '/Users/felipeaquino/Dev/projetos/elixir/hello_phoenix',
+5 verbose install   [ 'babel-brunch',
+5 verbose install     'brunch',
+5 verbose install     'clean-css-brunch',
+5 verbose install     'css-brunch',
+5 verbose install     'javascript-brunch',
+5 verbose install     'uglify-js-brunch',
+5 verbose install     'phoenix',
+5 verbose install     'phoenix_html' ] ]
+6 info preinstall @
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'brunch@^2.1.3', null ]
+9 verbose cache add name=undefined spec="brunch@^2.1.3" args=["brunch@^2.1.3",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'brunch@^2.1.3',
+10 verbose parsed url   path: 'brunch@^2.1.3',
+10 verbose parsed url   href: 'brunch@^2.1.3' }
+11 verbose cache add name="brunch" spec="^2.1.3" args=["brunch","^2.1.3"]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: '^2.1.3',
+12 verbose parsed url   path: '^2.1.3',
+12 verbose parsed url   href: '^2.1.3' }
+13 verbose addNamed [ 'brunch', '^2.1.3' ]
+14 verbose addNamed [ null, '>=2.1.3-0 <3.0.0-0' ]
+15 verbose cache add [ 'javascript-brunch@>= 1.0 < 1.8', null ]
+16 verbose cache add name=undefined spec="javascript-brunch@>= 1.0 < 1.8" args=["javascript-brunch@>= 1.0 < 1.8",null]
+17 verbose parsed url { protocol: null,
+17 verbose parsed url   slashes: null,
+17 verbose parsed url   auth: null,
+17 verbose parsed url   host: null,
+17 verbose parsed url   port: null,
+17 verbose parsed url   hostname: null,
+17 verbose parsed url   hash: null,
+17 verbose parsed url   search: null,
+17 verbose parsed url   query: null,
+17 verbose parsed url   pathname: 'javascript-brunch@%3E=%201.0%20%3C%201.8',
+17 verbose parsed url   path: 'javascript-brunch@%3E=%201.0%20%3C%201.8',
+17 verbose parsed url   href: 'javascript-brunch@%3E=%201.0%20%3C%201.8' }
+18 verbose cache add name="javascript-brunch" spec=">= 1.0 < 1.8" args=["javascript-brunch",">= 1.0 < 1.8"]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.8',
+19 verbose parsed url   path: '%3E=%201.0%20%3C%201.8',
+19 verbose parsed url   href: '%3E=%201.0%20%3C%201.8' }
+20 verbose addNamed [ 'javascript-brunch', '>= 1.0 < 1.8' ]
+21 verbose addNamed [ null, '>=1.0.0-0 <1.8.0-0' ]
+22 verbose cache add [ 'clean-css-brunch@>= 1.0 < 1.8', null ]
+23 verbose cache add name=undefined spec="clean-css-brunch@>= 1.0 < 1.8" args=["clean-css-brunch@>= 1.0 < 1.8",null]
+24 verbose parsed url { protocol: null,
+24 verbose parsed url   slashes: null,
+24 verbose parsed url   auth: null,
+24 verbose parsed url   host: null,
+24 verbose parsed url   port: null,
+24 verbose parsed url   hostname: null,
+24 verbose parsed url   hash: null,
+24 verbose parsed url   search: null,
+24 verbose parsed url   query: null,
+24 verbose parsed url   pathname: 'clean-css-brunch@%3E=%201.0%20%3C%201.8',
+24 verbose parsed url   path: 'clean-css-brunch@%3E=%201.0%20%3C%201.8',
+24 verbose parsed url   href: 'clean-css-brunch@%3E=%201.0%20%3C%201.8' }
+25 verbose cache add name="clean-css-brunch" spec=">= 1.0 < 1.8" args=["clean-css-brunch",">= 1.0 < 1.8"]
+26 verbose parsed url { protocol: null,
+26 verbose parsed url   slashes: null,
+26 verbose parsed url   auth: null,
+26 verbose parsed url   host: null,
+26 verbose parsed url   port: null,
+26 verbose parsed url   hostname: null,
+26 verbose parsed url   hash: null,
+26 verbose parsed url   search: null,
+26 verbose parsed url   query: null,
+26 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.8',
+26 verbose parsed url   path: '%3E=%201.0%20%3C%201.8',
+26 verbose parsed url   href: '%3E=%201.0%20%3C%201.8' }
+27 verbose addNamed [ 'clean-css-brunch', '>= 1.0 < 1.8' ]
+28 verbose addNamed [ null, '>=1.0.0-0 <1.8.0-0' ]
+29 verbose cache add [ 'uglify-js-brunch@>= 1.0 < 1.8', null ]
+30 verbose cache add name=undefined spec="uglify-js-brunch@>= 1.0 < 1.8" args=["uglify-js-brunch@>= 1.0 < 1.8",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'uglify-js-brunch@%3E=%201.0%20%3C%201.8',
+31 verbose parsed url   path: 'uglify-js-brunch@%3E=%201.0%20%3C%201.8',
+31 verbose parsed url   href: 'uglify-js-brunch@%3E=%201.0%20%3C%201.8' }
+32 verbose cache add name="uglify-js-brunch" spec=">= 1.0 < 1.8" args=["uglify-js-brunch",">= 1.0 < 1.8"]
+33 verbose parsed url { protocol: null,
+33 verbose parsed url   slashes: null,
+33 verbose parsed url   auth: null,
+33 verbose parsed url   host: null,
+33 verbose parsed url   port: null,
+33 verbose parsed url   hostname: null,
+33 verbose parsed url   hash: null,
+33 verbose parsed url   search: null,
+33 verbose parsed url   query: null,
+33 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.8',
+33 verbose parsed url   path: '%3E=%201.0%20%3C%201.8',
+33 verbose parsed url   href: '%3E=%201.0%20%3C%201.8' }
+34 verbose addNamed [ 'uglify-js-brunch', '>= 1.0 < 1.8' ]
+35 verbose addNamed [ null, '>=1.0.0-0 <1.8.0-0' ]
+36 verbose cache add [ 'css-brunch@>= 1.0 < 1.8', null ]
+37 verbose cache add name=undefined spec="css-brunch@>= 1.0 < 1.8" args=["css-brunch@>= 1.0 < 1.8",null]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: 'css-brunch@%3E=%201.0%20%3C%201.8',
+38 verbose parsed url   path: 'css-brunch@%3E=%201.0%20%3C%201.8',
+38 verbose parsed url   href: 'css-brunch@%3E=%201.0%20%3C%201.8' }
+39 verbose cache add name="css-brunch" spec=">= 1.0 < 1.8" args=["css-brunch",">= 1.0 < 1.8"]
+40 verbose parsed url { protocol: null,
+40 verbose parsed url   slashes: null,
+40 verbose parsed url   auth: null,
+40 verbose parsed url   host: null,
+40 verbose parsed url   port: null,
+40 verbose parsed url   hostname: null,
+40 verbose parsed url   hash: null,
+40 verbose parsed url   search: null,
+40 verbose parsed url   query: null,
+40 verbose parsed url   pathname: '%3E=%201.0%20%3C%201.8',
+40 verbose parsed url   path: '%3E=%201.0%20%3C%201.8',
+40 verbose parsed url   href: '%3E=%201.0%20%3C%201.8' }
+41 verbose addNamed [ 'css-brunch', '>= 1.0 < 1.8' ]
+42 verbose addNamed [ null, '>=1.0.0-0 <1.8.0-0' ]
+43 verbose cache add [ 'phoenix@file:deps/phoenix', null ]
+44 verbose cache add name=undefined spec="phoenix@file:deps/phoenix" args=["phoenix@file:deps/phoenix",null]
+45 verbose parsed url { protocol: null,
+45 verbose parsed url   slashes: null,
+45 verbose parsed url   auth: null,
+45 verbose parsed url   host: null,
+45 verbose parsed url   port: null,
+45 verbose parsed url   hostname: null,
+45 verbose parsed url   hash: null,
+45 verbose parsed url   search: null,
+45 verbose parsed url   query: null,
+45 verbose parsed url   pathname: 'phoenix@file:deps/phoenix',
+45 verbose parsed url   path: 'phoenix@file:deps/phoenix',
+45 verbose parsed url   href: 'phoenix@file:deps/phoenix' }
+46 silly lockFile e122a3dd-brunch-2-1-3 brunch@^2.1.3
+47 verbose lock brunch@^2.1.3 /Users/felipeaquino/.npm/e122a3dd-brunch-2-1-3.lock
+48 silly lockFile cc07cd62-javascript-brunch-1-0-1-8 javascript-brunch@>= 1.0 < 1.8
+49 verbose lock javascript-brunch@>= 1.0 < 1.8 /Users/felipeaquino/.npm/cc07cd62-javascript-brunch-1-0-1-8.lock
+50 silly lockFile a4ef8c74-clean-css-brunch-1-0-1-8 clean-css-brunch@>= 1.0 < 1.8
+51 verbose lock clean-css-brunch@>= 1.0 < 1.8 /Users/felipeaquino/.npm/a4ef8c74-clean-css-brunch-1-0-1-8.lock
+52 silly lockFile a1de250c-uglify-js-brunch-1-0-1-8 uglify-js-brunch@>= 1.0 < 1.8
+53 verbose lock uglify-js-brunch@>= 1.0 < 1.8 /Users/felipeaquino/.npm/a1de250c-uglify-js-brunch-1-0-1-8.lock
+54 silly lockFile 63340fb0-css-brunch-1-0-1-8 css-brunch@>= 1.0 < 1.8
+55 verbose lock css-brunch@>= 1.0 < 1.8 /Users/felipeaquino/.npm/63340fb0-css-brunch-1-0-1-8.lock
+56 verbose cache add [ 'phoenix_html@file:deps/phoenix_html', null ]
+57 verbose cache add name=undefined spec="phoenix_html@file:deps/phoenix_html" args=["phoenix_html@file:deps/phoenix_html",null]
+58 verbose parsed url { protocol: null,
+58 verbose parsed url   slashes: null,
+58 verbose parsed url   auth: null,
+58 verbose parsed url   host: null,
+58 verbose parsed url   port: null,
+58 verbose parsed url   hostname: null,
+58 verbose parsed url   hash: null,
+58 verbose parsed url   search: null,
+58 verbose parsed url   query: null,
+58 verbose parsed url   pathname: 'phoenix_html@file:deps/phoenix_html',
+58 verbose parsed url   path: 'phoenix_html@file:deps/phoenix_html',
+58 verbose parsed url   href: 'phoenix_html@file:deps/phoenix_html' }
+59 verbose cache add [ 'babel-brunch@^6.0.0', null ]
+60 verbose cache add name=undefined spec="babel-brunch@^6.0.0" args=["babel-brunch@^6.0.0",null]
+61 verbose parsed url { protocol: null,
+61 verbose parsed url   slashes: null,
+61 verbose parsed url   auth: null,
+61 verbose parsed url   host: null,
+61 verbose parsed url   port: null,
+61 verbose parsed url   hostname: null,
+61 verbose parsed url   hash: null,
+61 verbose parsed url   search: null,
+61 verbose parsed url   query: null,
+61 verbose parsed url   pathname: 'babel-brunch@^6.0.0',
+61 verbose parsed url   path: 'babel-brunch@^6.0.0',
+61 verbose parsed url   href: 'babel-brunch@^6.0.0' }
+62 verbose cache add name="babel-brunch" spec="^6.0.0" args=["babel-brunch","^6.0.0"]
+63 verbose parsed url { protocol: null,
+63 verbose parsed url   slashes: null,
+63 verbose parsed url   auth: null,
+63 verbose parsed url   host: null,
+63 verbose parsed url   port: null,
+63 verbose parsed url   hostname: null,
+63 verbose parsed url   hash: null,
+63 verbose parsed url   search: null,
+63 verbose parsed url   query: null,
+63 verbose parsed url   pathname: '^6.0.0',
+63 verbose parsed url   path: '^6.0.0',
+63 verbose parsed url   href: '^6.0.0' }
+64 verbose addNamed [ 'babel-brunch', '^6.0.0' ]
+65 verbose addNamed [ null, '>=6.0.0-0 <7.0.0-0' ]
+66 silly lockFile a599a6cd-babel-brunch-6-0-0 babel-brunch@^6.0.0
+67 verbose lock babel-brunch@^6.0.0 /Users/felipeaquino/.npm/a599a6cd-babel-brunch-6-0-0.lock
+68 verbose cache add name="phoenix" spec="file:deps/phoenix" args=["phoenix","file:deps/phoenix"]
+69 verbose parsed url { protocol: 'file:',
+69 verbose parsed url   slashes: null,
+69 verbose parsed url   auth: null,
+69 verbose parsed url   host: null,
+69 verbose parsed url   port: null,
+69 verbose parsed url   hostname: null,
+69 verbose parsed url   hash: null,
+69 verbose parsed url   search: null,
+69 verbose parsed url   query: null,
+69 verbose parsed url   pathname: 'deps/phoenix',
+69 verbose parsed url   path: 'deps/phoenix',
+69 verbose parsed url   href: 'file:deps/phoenix' }
+70 verbose addNamed [ 'phoenix', 'file:deps/phoenix' ]
+71 verbose addNamed [ null, null ]
+72 silly lockFile 25706d37-phoenix-file-deps-phoenix phoenix@file:deps/phoenix
+73 verbose lock phoenix@file:deps/phoenix /Users/felipeaquino/.npm/25706d37-phoenix-file-deps-phoenix.lock
+74 verbose cache add name="phoenix_html" spec="file:deps/phoenix_html" args=["phoenix_html","file:deps/phoenix_html"]
+75 verbose parsed url { protocol: 'file:',
+75 verbose parsed url   slashes: null,
+75 verbose parsed url   auth: null,
+75 verbose parsed url   host: null,
+75 verbose parsed url   port: null,
+75 verbose parsed url   hostname: null,
+75 verbose parsed url   hash: null,
+75 verbose parsed url   search: null,
+75 verbose parsed url   query: null,
+75 verbose parsed url   pathname: 'deps/phoenix_html',
+75 verbose parsed url   path: 'deps/phoenix_html',
+75 verbose parsed url   href: 'file:deps/phoenix_html' }
+76 verbose addNamed [ 'phoenix_html', 'file:deps/phoenix_html' ]
+77 verbose addNamed [ null, null ]
+78 silly lockFile 3d88e48d-enix-html-file-deps-phoenix-html phoenix_html@file:deps/phoenix_html
+79 verbose lock phoenix_html@file:deps/phoenix_html /Users/felipeaquino/.npm/3d88e48d-enix-html-file-deps-phoenix-html.lock
+80 silly addNameRange { name: 'brunch', range: '>=2.1.3-0 <3.0.0-0', hasData: false }
+81 silly addNameRange { name: 'javascript-brunch',
+81 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+81 silly addNameRange   hasData: false }
+82 silly addNameRange { name: 'clean-css-brunch',
+82 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+82 silly addNameRange   hasData: false }
+83 silly addNameRange { name: 'uglify-js-brunch',
+83 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+83 silly addNameRange   hasData: false }
+84 silly addNameRange { name: 'css-brunch',
+84 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+84 silly addNameRange   hasData: false }
+85 silly addNameRange { name: 'babel-brunch',
+85 silly addNameRange   range: '>=6.0.0-0 <7.0.0-0',
+85 silly addNameRange   hasData: false }
+86 info addNameTag [ 'phoenix', 'file:deps/phoenix' ]
+87 info addNameTag [ 'phoenix_html', 'file:deps/phoenix_html' ]
+88 verbose url raw brunch
+89 verbose url resolving [ 'https://registry.npmjs.org/', './brunch' ]
+90 verbose url resolved https://registry.npmjs.org/brunch
+91 info trying registry request attempt 1 at 09:06:51
+92 verbose etag "1QFBF6DOSY56TAI1AWCT4WV40"
+93 http GET https://registry.npmjs.org/brunch
+94 verbose url raw clean-css-brunch
+95 verbose url resolving [ 'https://registry.npmjs.org/', './clean-css-brunch' ]
+96 verbose url resolved https://registry.npmjs.org/clean-css-brunch
+97 info trying registry request attempt 1 at 09:06:51
+98 verbose etag "5MPZPCMAI74IWZRADCMJFIHZW"
+99 http GET https://registry.npmjs.org/clean-css-brunch
+100 verbose url raw javascript-brunch
+101 verbose url resolving [ 'https://registry.npmjs.org/', './javascript-brunch' ]
+102 verbose url resolved https://registry.npmjs.org/javascript-brunch
+103 info trying registry request attempt 1 at 09:06:51
+104 verbose etag "29I869TOMAOKBX6F9X34ADN83"
+105 http GET https://registry.npmjs.org/javascript-brunch
+106 verbose url raw uglify-js-brunch
+107 verbose url resolving [ 'https://registry.npmjs.org/', './uglify-js-brunch' ]
+108 verbose url resolved https://registry.npmjs.org/uglify-js-brunch
+109 info trying registry request attempt 1 at 09:06:51
+110 verbose etag "13FU9J8Y5W216UTLU2ZRS4T4M"
+111 http GET https://registry.npmjs.org/uglify-js-brunch
+112 verbose url raw css-brunch
+113 verbose url resolving [ 'https://registry.npmjs.org/', './css-brunch' ]
+114 verbose url resolved https://registry.npmjs.org/css-brunch
+115 info trying registry request attempt 1 at 09:06:51
+116 verbose etag "3MLMEF015LTF3ST910NBEPF6Z"
+117 http GET https://registry.npmjs.org/css-brunch
+118 verbose url raw phoenix
+119 verbose url resolving [ 'https://registry.npmjs.org/', './phoenix' ]
+120 verbose url resolved https://registry.npmjs.org/phoenix
+121 info trying registry request attempt 1 at 09:06:51
+122 verbose etag "3KWLGPJF5U3RDJTFGVX0954C8"
+123 http GET https://registry.npmjs.org/phoenix
+124 verbose url raw babel-brunch
+125 verbose url resolving [ 'https://registry.npmjs.org/', './babel-brunch' ]
+126 verbose url resolved https://registry.npmjs.org/babel-brunch
+127 info trying registry request attempt 1 at 09:06:51
+128 verbose etag "6UDF2GRX43BIZTQ9772DRSL2T"
+129 http GET https://registry.npmjs.org/babel-brunch
+130 verbose url raw phoenix_html
+131 verbose url resolving [ 'https://registry.npmjs.org/', './phoenix_html' ]
+132 verbose url resolved https://registry.npmjs.org/phoenix_html
+133 info trying registry request attempt 1 at 09:06:51
+134 http GET https://registry.npmjs.org/phoenix_html
+135 http 304 https://registry.npmjs.org/uglify-js-brunch
+136 silly registry.get cb [ 304,
+136 silly registry.get   { date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+136 silly registry.get     via: '1.1 varnish',
+136 silly registry.get     'cache-control': 'max-age=300',
+136 silly registry.get     etag: '"13FU9J8Y5W216UTLU2ZRS4T4M"',
+136 silly registry.get     age: '0',
+136 silly registry.get     connection: 'keep-alive',
+136 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+136 silly registry.get     'x-cache': 'HIT',
+136 silly registry.get     'x-cache-hits': '1',
+136 silly registry.get     'x-timer': 'S1456056412.467531,VS0,VE23',
+136 silly registry.get     vary: 'Accept' } ]
+137 verbose etag uglify-js-brunch from cache
+138 http 304 https://registry.npmjs.org/clean-css-brunch
+139 silly registry.get cb [ 304,
+139 silly registry.get   { date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+139 silly registry.get     via: '1.1 varnish',
+139 silly registry.get     'cache-control': 'max-age=300',
+139 silly registry.get     etag: '"5MPZPCMAI74IWZRADCMJFIHZW"',
+139 silly registry.get     age: '0',
+139 silly registry.get     connection: 'keep-alive',
+139 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+139 silly registry.get     'x-cache': 'HIT',
+139 silly registry.get     'x-cache-hits': '1',
+139 silly registry.get     'x-timer': 'S1456056412.455301,VS0,VE97',
+139 silly registry.get     vary: 'Accept' } ]
+140 verbose etag clean-css-brunch from cache
+141 http 304 https://registry.npmjs.org/brunch
+142 silly registry.get cb [ 304,
+142 silly registry.get   { date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+142 silly registry.get     via: '1.1 varnish',
+142 silly registry.get     'cache-control': 'max-age=300',
+142 silly registry.get     etag: '"1QFBF6DOSY56TAI1AWCT4WV40"',
+142 silly registry.get     age: '0',
+142 silly registry.get     connection: 'keep-alive',
+142 silly registry.get     'x-served-by': 'cache-atl6237-ATL',
+142 silly registry.get     'x-cache': 'HIT',
+142 silly registry.get     'x-cache-hits': '1',
+142 silly registry.get     'x-timer': 'S1456056412.454757,VS0,VE99',
+142 silly registry.get     vary: 'Accept' } ]
+143 verbose etag brunch from cache
+144 http 304 https://registry.npmjs.org/javascript-brunch
+145 silly registry.get cb [ 304,
+145 silly registry.get   { date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+145 silly registry.get     via: '1.1 varnish',
+145 silly registry.get     'cache-control': 'max-age=300',
+145 silly registry.get     etag: '"29I869TOMAOKBX6F9X34ADN83"',
+145 silly registry.get     age: '0',
+145 silly registry.get     connection: 'keep-alive',
+145 silly registry.get     'x-served-by': 'cache-atl6233-ATL',
+145 silly registry.get     'x-cache': 'HIT',
+145 silly registry.get     'x-cache-hits': '1',
+145 silly registry.get     'x-timer': 'S1456056412.456133,VS0,VE100',
+145 silly registry.get     vary: 'Accept' } ]
+146 verbose etag javascript-brunch from cache
+147 silly addNameRange number 2 { name: 'uglify-js-brunch',
+147 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+147 silly addNameRange   hasData: true }
+148 silly addNameRange versions [ 'uglify-js-brunch',
+148 silly addNameRange   [ '1.0.0',
+148 silly addNameRange     '1.1.0',
+148 silly addNameRange     '1.1.1',
+148 silly addNameRange     '1.3.0',
+148 silly addNameRange     '1.3.1',
+148 silly addNameRange     '1.5.0',
+148 silly addNameRange     '1.5.1',
+148 silly addNameRange     '1.7.0',
+148 silly addNameRange     '1.7.1',
+148 silly addNameRange     '1.7.2',
+148 silly addNameRange     '1.7.3',
+148 silly addNameRange     '1.7.4',
+148 silly addNameRange     '1.7.5',
+148 silly addNameRange     '1.7.6',
+148 silly addNameRange     '1.7.7',
+148 silly addNameRange     '1.7.8',
+148 silly addNameRange     '2.0.0',
+148 silly addNameRange     '2.0.1' ] ]
+149 verbose addNamed [ 'uglify-js-brunch', '1.7.8' ]
+150 verbose addNamed [ '1.7.8', '1.7.8' ]
+151 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+152 verbose lock uglify-js-brunch@1.7.8 /Users/felipeaquino/.npm/cd6b0dc2-uglify-js-brunch-1-7-8.lock
+153 silly addNameRange number 2 { name: 'clean-css-brunch',
+153 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+153 silly addNameRange   hasData: true }
+154 silly addNameRange versions [ 'clean-css-brunch',
+154 silly addNameRange   [ '1.0.0',
+154 silly addNameRange     '1.1.0',
+154 silly addNameRange     '1.1.1',
+154 silly addNameRange     '1.3.0',
+154 silly addNameRange     '1.4.0',
+154 silly addNameRange     '1.5.0',
+154 silly addNameRange     '1.5.1',
+154 silly addNameRange     '1.6.0',
+154 silly addNameRange     '1.7.0',
+154 silly addNameRange     '1.7.1',
+154 silly addNameRange     '1.7.2',
+154 silly addNameRange     '1.8.0',
+154 silly addNameRange     '2.0.0' ] ]
+155 verbose addNamed [ 'clean-css-brunch', '1.7.2' ]
+156 verbose addNamed [ '1.7.2', '1.7.2' ]
+157 silly lockFile 343b1949-clean-css-brunch-1-7-2 clean-css-brunch@1.7.2
+158 verbose lock clean-css-brunch@1.7.2 /Users/felipeaquino/.npm/343b1949-clean-css-brunch-1-7-2.lock
+159 silly addNameRange number 2 { name: 'javascript-brunch',
+159 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+159 silly addNameRange   hasData: true }
+160 silly addNameRange versions [ 'javascript-brunch',
+160 silly addNameRange   [ '1.0.0',
+160 silly addNameRange     '1.1.0',
+160 silly addNameRange     '1.1.1',
+160 silly addNameRange     '1.3.0',
+160 silly addNameRange     '1.5.0',
+160 silly addNameRange     '1.5.1',
+160 silly addNameRange     '1.6.0',
+160 silly addNameRange     '1.7.0',
+160 silly addNameRange     '1.7.1',
+160 silly addNameRange     '1.8.0',
+160 silly addNameRange     '2.0.0' ] ]
+161 verbose addNamed [ 'javascript-brunch', '1.7.1' ]
+162 verbose addNamed [ '1.7.1', '1.7.1' ]
+163 silly lockFile 2cdf8aa2-javascript-brunch-1-7-1 javascript-brunch@1.7.1
+164 verbose lock javascript-brunch@1.7.1 /Users/felipeaquino/.npm/2cdf8aa2-javascript-brunch-1-7-1.lock
+165 silly addNameRange number 2 { name: 'brunch', range: '>=2.1.3-0 <3.0.0-0', hasData: true }
+166 silly addNameRange versions [ 'brunch',
+166 silly addNameRange   [ '0.0.1',
+166 silly addNameRange     '0.0.2',
+166 silly addNameRange     '0.0.3',
+166 silly addNameRange     '0.0.4',
+166 silly addNameRange     '0.0.5',
+166 silly addNameRange     '0.0.6',
+166 silly addNameRange     '0.0.7',
+166 silly addNameRange     '0.0.8',
+166 silly addNameRange     '0.1.0',
+166 silly addNameRange     '0.1.1',
+166 silly addNameRange     '0.1.3',
+166 silly addNameRange     '0.1.4',
+166 silly addNameRange     '0.1.5',
+166 silly addNameRange     '0.1.6',
+166 silly addNameRange     '0.1.7',
+166 silly addNameRange     '0.1.8',
+166 silly addNameRange     '0.1.9',
+166 silly addNameRange     '0.2.0',
+166 silly addNameRange     '0.2.1',
+166 silly addNameRange     '0.2.2',
+166 silly addNameRange     '0.2.3',
+166 silly addNameRange     '0.2.4',
+166 silly addNameRange     '0.2.6',
+166 silly addNameRange     '0.2.7',
+166 silly addNameRange     '0.2.8',
+166 silly addNameRange     '0.3.0',
+166 silly addNameRange     '0.3.1',
+166 silly addNameRange     '0.3.2',
+166 silly addNameRange     '0.3.4',
+166 silly addNameRange     '0.3.5',
+166 silly addNameRange     '0.3.6',
+166 silly addNameRange     '0.3.7',
+166 silly addNameRange     '0.4.0',
+166 silly addNameRange     '0.4.1',
+166 silly addNameRange     '0.4.2',
+166 silly addNameRange     '0.4.3',
+166 silly addNameRange     '0.4.4',
+166 silly addNameRange     '0.4.5',
+166 silly addNameRange     '0.5.1',
+166 silly addNameRange     '0.5.2',
+166 silly addNameRange     '0.5.3',
+166 silly addNameRange     '0.5.4',
+166 silly addNameRange     '0.5.5',
+166 silly addNameRange     '0.5.6',
+166 silly addNameRange     '0.6.0',
+166 silly addNameRange     '0.6.1',
+166 silly addNameRange     '0.6.2',
+166 silly addNameRange     '0.7.0',
+166 silly addNameRange     '0.7.1',
+166 silly addNameRange     '0.7.2',
+166 silly addNameRange     '0.7.3',
+166 silly addNameRange     '0.7.4',
+166 silly addNameRange     '0.8.0',
+166 silly addNameRange     '0.8.1',
+166 silly addNameRange     '0.9.0-beta1',
+166 silly addNameRange     '0.9.0',
+166 silly addNameRange     '0.9.1',
+166 silly addNameRange     '1.0.0',
+166 silly addNameRange     '1.0.1',
+166 silly addNameRange     '1.0.2',
+166 silly addNameRange     '1.0.3',
+166 silly addNameRange     '1.1.0',
+166 silly addNameRange     '1.1.1',
+166 silly addNameRange     '1.1.2',
+166 silly addNameRange     '1.2.0',
+166 silly addNameRange     '1.2.1',
+166 silly addNameRange     '1.2.2',
+166 silly addNameRange     '1.3.0',
+166 silly addNameRange     '1.3.1',
+166 silly addNameRange     '1.3.2',
+166 silly addNameRange     '1.3.3',
+166 silly addNameRange     '1.3.4',
+166 silly addNameRange     '1.4.0',
+166 silly addNameRange     '1.4.1',
+166 silly addNameRange     '1.4.2',
+166 silly addNameRange     '1.4.3',
+166 silly addNameRange     '1.4.4',
+166 silly addNameRange     '1.4.5',
+166 silly addNameRange     '1.5.0',
+166 silly addNameRange     '1.5.1',
+166 silly addNameRange     '1.5.2',
+166 silly addNameRange     '1.5.3',
+166 silly addNameRange     '1.5.4',
+166 silly addNameRange     '1.6.0',
+166 silly addNameRange     '1.6.1',
+166 silly addNameRange     '1.6.2',
+166 silly addNameRange     '1.6.3',
+166 silly addNameRange     '1.6.4',
+166 silly addNameRange     '1.6.5',
+166 silly addNameRange     '1.6.6',
+166 silly addNameRange     '1.6.7',
+166 silly addNameRange     '1.7.0',
+166 silly addNameRange     '1.7.1',
+166 silly addNameRange     '1.7.2',
+166 silly addNameRange     '1.7.3',
+166 silly addNameRange     '1.7.4',
+166 silly addNameRange     '1.7.5',
+166 silly addNameRange     '1.7.6',
+166 silly addNameRange     '1.7.7',
+166 silly addNameRange     '1.7.8',
+166 silly addNameRange     '1.7.9',
+166 silly addNameRange     '1.7.10',
+166 silly addNameRange     '1.7.12',
+166 silly addNameRange     '1.7.13',
+166 silly addNameRange     '1.7.14',
+166 silly addNameRange     '1.7.15',
+166 silly addNameRange     '1.7.16',
+166 silly addNameRange     '1.7.17',
+166 silly addNameRange     '1.7.18',
+166 silly addNameRange     '1.7.19',
+166 silly addNameRange     '1.7.20',
+166 silly addNameRange     '1.8.0',
+166 silly addNameRange     '1.8.1',
+166 silly addNameRange     '1.8.2',
+166 silly addNameRange     '1.8.3',
+166 silly addNameRange     '1.8.4',
+166 silly addNameRange     '1.8.5',
+166 silly addNameRange     '2.0.0',
+166 silly addNameRange     '2.0.1',
+166 silly addNameRange     '2.0.2',
+166 silly addNameRange     '2.0.3',
+166 silly addNameRange     '2.0.4',
+166 silly addNameRange     '2.1.0',
+166 silly addNameRange     '2.1.1',
+166 silly addNameRange     '2.1.2',
+166 silly addNameRange     '2.1.3',
+166 silly addNameRange     '2.2.0',
+166 silly addNameRange     '2.2.1',
+166 silly addNameRange     '2.2.2',
+166 silly addNameRange     '2.2.3',
+166 silly addNameRange     '2.3.0',
+166 silly addNameRange     '2.3.1',
+166 silly addNameRange     '2.3.2' ] ]
+167 verbose addNamed [ 'brunch', '2.3.2' ]
+168 verbose addNamed [ '2.3.2', '2.3.2' ]
+169 silly lockFile 5c6c9778-brunch-2-3-2 brunch@2.3.2
+170 verbose lock brunch@2.3.2 /Users/felipeaquino/.npm/5c6c9778-brunch-2-3-2.lock
+171 silly lockFile 5c6c9778-brunch-2-3-2 brunch@2.3.2
+172 silly lockFile 5c6c9778-brunch-2-3-2 brunch@2.3.2
+173 silly lockFile e122a3dd-brunch-2-1-3 brunch@^2.1.3
+174 silly lockFile e122a3dd-brunch-2-1-3 brunch@^2.1.3
+175 silly lockFile 2cdf8aa2-javascript-brunch-1-7-1 javascript-brunch@1.7.1
+176 silly lockFile 2cdf8aa2-javascript-brunch-1-7-1 javascript-brunch@1.7.1
+177 silly lockFile cc07cd62-javascript-brunch-1-0-1-8 javascript-brunch@>= 1.0 < 1.8
+178 silly lockFile cc07cd62-javascript-brunch-1-0-1-8 javascript-brunch@>= 1.0 < 1.8
+179 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+180 silly lockFile cd6b0dc2-uglify-js-brunch-1-7-8 uglify-js-brunch@1.7.8
+181 silly lockFile a1de250c-uglify-js-brunch-1-0-1-8 uglify-js-brunch@>= 1.0 < 1.8
+182 silly lockFile a1de250c-uglify-js-brunch-1-0-1-8 uglify-js-brunch@>= 1.0 < 1.8
+183 silly lockFile 343b1949-clean-css-brunch-1-7-2 clean-css-brunch@1.7.2
+184 silly lockFile 343b1949-clean-css-brunch-1-7-2 clean-css-brunch@1.7.2
+185 silly lockFile a4ef8c74-clean-css-brunch-1-0-1-8 clean-css-brunch@>= 1.0 < 1.8
+186 silly lockFile a4ef8c74-clean-css-brunch-1-0-1-8 clean-css-brunch@>= 1.0 < 1.8
+187 http 304 https://registry.npmjs.org/phoenix
+188 silly registry.get cb [ 304,
+188 silly registry.get   { date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+188 silly registry.get     via: '1.1 varnish',
+188 silly registry.get     'cache-control': 'max-age=300',
+188 silly registry.get     etag: '"3KWLGPJF5U3RDJTFGVX0954C8"',
+188 silly registry.get     age: '0',
+188 silly registry.get     connection: 'keep-alive',
+188 silly registry.get     'x-served-by': 'cache-atl6231-ATL',
+188 silly registry.get     'x-cache': 'MISS',
+188 silly registry.get     'x-cache-hits': '0',
+188 silly registry.get     'x-timer': 'S1456056412.683749,VS0,VE107',
+188 silly registry.get     vary: 'Accept' } ]
+189 verbose etag phoenix from cache
+190 http 404 https://registry.npmjs.org/phoenix_html
+191 silly registry.get cb [ 404,
+191 silly registry.get   { 'content-type': 'application/json',
+191 silly registry.get     'cache-control': 'max-age=0',
+191 silly registry.get     'content-length': '2',
+191 silly registry.get     'accept-ranges': 'bytes',
+191 silly registry.get     date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+191 silly registry.get     via: '1.1 varnish',
+191 silly registry.get     age: '0',
+191 silly registry.get     connection: 'keep-alive',
+191 silly registry.get     'x-served-by': 'cache-atl6237-ATL',
+191 silly registry.get     'x-cache': 'MISS',
+191 silly registry.get     'x-cache-hits': '0',
+191 silly registry.get     'x-timer': 'S1456056412.684442,VS0,VE107' } ]
+192 http 304 https://registry.npmjs.org/babel-brunch
+193 silly registry.get cb [ 304,
+193 silly registry.get   { date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+193 silly registry.get     via: '1.1 varnish',
+193 silly registry.get     'cache-control': 'max-age=300',
+193 silly registry.get     etag: '"6UDF2GRX43BIZTQ9772DRSL2T"',
+193 silly registry.get     age: '0',
+193 silly registry.get     connection: 'keep-alive',
+193 silly registry.get     'x-served-by': 'cache-atl6221-ATL',
+193 silly registry.get     'x-cache': 'HIT',
+193 silly registry.get     'x-cache-hits': '1',
+193 silly registry.get     'x-timer': 'S1456056412.684573,VS0,VE114',
+193 silly registry.get     vary: 'Accept' } ]
+194 verbose etag babel-brunch from cache
+195 info maybeGithub Attempting file:deps/phoenix from git://github.com/file:deps/phoenix
+196 silly lockFile 6d5f9840-git-github-com-file-deps-phoenix git://github.com/file:deps/phoenix
+197 verbose lock git://github.com/file:deps/phoenix /Users/felipeaquino/.npm/6d5f9840-git-github-com-file-deps-phoenix.lock
+198 silly addNameRange number 2 { name: 'babel-brunch',
+198 silly addNameRange   range: '>=6.0.0-0 <7.0.0-0',
+198 silly addNameRange   hasData: true }
+199 silly addNameRange versions [ 'babel-brunch',
+199 silly addNameRange   [ '4.0.0', '5.0.0', '5.0.1', '5.1.0', '5.1.1', '5.1.2', '6.0.0' ] ]
+200 verbose addNamed [ 'babel-brunch', '6.0.0' ]
+201 verbose addNamed [ '6.0.0', '6.0.0' ]
+202 silly lockFile 06e49e6d-babel-brunch-6-0-0 babel-brunch@6.0.0
+203 verbose lock babel-brunch@6.0.0 /Users/felipeaquino/.npm/06e49e6d-babel-brunch-6-0-0.lock
+204 info maybeGithub Attempting file:deps/phoenix_html from git://github.com/file:deps/phoenix_html
+205 silly lockFile f4155054-ithub-com-file-deps-phoenix-html git://github.com/file:deps/phoenix_html
+206 verbose lock git://github.com/file:deps/phoenix_html /Users/felipeaquino/.npm/f4155054-ithub-com-file-deps-phoenix-html.lock
+207 verbose addRemoteGit [ 'git://github.com/file:deps/phoenix', 'master' ]
+208 verbose addRemoteGit [ 'git://github.com/file:deps/phoenix_html', 'master' ]
+209 silly lockFile 06e49e6d-babel-brunch-6-0-0 babel-brunch@6.0.0
+210 silly lockFile 06e49e6d-babel-brunch-6-0-0 babel-brunch@6.0.0
+211 silly lockFile a599a6cd-babel-brunch-6-0-0 babel-brunch@^6.0.0
+212 silly lockFile a599a6cd-babel-brunch-6-0-0 babel-brunch@^6.0.0
+213 http 304 https://registry.npmjs.org/css-brunch
+214 silly registry.get cb [ 304,
+214 silly registry.get   { date: 'Sun, 21 Feb 2016 12:06:52 GMT',
+214 silly registry.get     via: '1.1 varnish',
+214 silly registry.get     'cache-control': 'max-age=300',
+214 silly registry.get     etag: '"3MLMEF015LTF3ST910NBEPF6Z"',
+214 silly registry.get     age: '0',
+214 silly registry.get     connection: 'keep-alive',
+214 silly registry.get     'x-served-by': 'cache-atl6243-ATL',
+214 silly registry.get     'x-cache': 'HIT',
+214 silly registry.get     'x-cache-hits': '1',
+214 silly registry.get     'x-timer': 'S1456056412.456526,VS0,VE354',
+214 silly registry.get     vary: 'Accept' } ]
+215 verbose etag css-brunch from cache
+216 silly addNameRange number 2 { name: 'css-brunch',
+216 silly addNameRange   range: '>=1.0.0-0 <1.8.0-0',
+216 silly addNameRange   hasData: true }
+217 silly addNameRange versions [ 'css-brunch',
+217 silly addNameRange   [ '1.0.0',
+217 silly addNameRange     '1.1.0',
+217 silly addNameRange     '1.1.1',
+217 silly addNameRange     '1.3.0',
+217 silly addNameRange     '1.5.0',
+217 silly addNameRange     '1.5.1',
+217 silly addNameRange     '1.6.0',
+217 silly addNameRange     '1.7.0',
+217 silly addNameRange     '2.0.0' ] ]
+218 verbose addNamed [ 'css-brunch', '1.7.0' ]
+219 verbose addNamed [ '1.7.0', '1.7.0' ]
+220 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+221 verbose lock css-brunch@1.7.0 /Users/felipeaquino/.npm/c3390392-css-brunch-1-7-0.lock
+222 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+223 silly lockFile c3390392-css-brunch-1-7-0 css-brunch@1.7.0
+224 silly lockFile 63340fb0-css-brunch-1-0-1-8 css-brunch@>= 1.0 < 1.8
+225 silly lockFile 63340fb0-css-brunch-1-0-1-8 css-brunch@>= 1.0 < 1.8
+226 verbose git clone git://github.com/file:deps/phoenix_html Cloning into bare repository '/Users/felipeaquino/.npm/_git-remotes/git-github-com-file-deps-phoenix-html-f4155054'...
+226 verbose git clone git://github.com/file:deps/phoenix_html fatal: remote error:
+226 verbose git clone git://github.com/file:deps/phoenix_html   file:deps/phoenix_html is not a valid repository name
+226 verbose git clone git://github.com/file:deps/phoenix_html   Email support@github.com for help
+227 verbose git clone git://github.com/file:deps/phoenix Cloning into bare repository '/Users/felipeaquino/.npm/_git-remotes/git-github-com-file-deps-phoenix-6d5f9840'...
+227 verbose git clone git://github.com/file:deps/phoenix fatal: remote error:
+227 verbose git clone git://github.com/file:deps/phoenix   file:deps/phoenix is not a valid repository name
+227 verbose git clone git://github.com/file:deps/phoenix   Email support@github.com for help
+228 silly lockFile f4155054-ithub-com-file-deps-phoenix-html git://github.com/file:deps/phoenix_html
+229 silly lockFile f4155054-ithub-com-file-deps-phoenix-html git://github.com/file:deps/phoenix_html
+230 silly lockFile 6d5f9840-git-github-com-file-deps-phoenix git://github.com/file:deps/phoenix
+231 silly lockFile 6d5f9840-git-github-com-file-deps-phoenix git://github.com/file:deps/phoenix
+232 info maybeGithub Attempting file:deps/phoenix_html from git+ssh://git@github.com:file:deps/phoenix_html
+233 silly lockFile 50a27b71-ithub-com-file-deps-phoenix-html git@github.com:file:deps/phoenix_html
+234 verbose lock git@github.com:file:deps/phoenix_html /Users/felipeaquino/.npm/50a27b71-ithub-com-file-deps-phoenix-html.lock
+235 info maybeGithub Attempting file:deps/phoenix from git+ssh://git@github.com:file:deps/phoenix
+236 silly lockFile c83d6c1a-git-github-com-file-deps-phoenix git@github.com:file:deps/phoenix
+237 verbose lock git@github.com:file:deps/phoenix /Users/felipeaquino/.npm/c83d6c1a-git-github-com-file-deps-phoenix.lock
+238 verbose addRemoteGit [ 'git@github.com:file:deps/phoenix_html', 'master' ]
+239 verbose addRemoteGit [ 'git@github.com:file:deps/phoenix', 'master' ]
+240 verbose git clone git@github.com:file:deps/phoenix Cloning into bare repository '/Users/felipeaquino/.npm/_git-remotes/git-github-com-file-deps-phoenix-c83d6c1a'...
+240 verbose git clone git@github.com:file:deps/phoenix fatal: remote error:
+240 verbose git clone git@github.com:file:deps/phoenix    is not a valid repository name
+240 verbose git clone git@github.com:file:deps/phoenix   Email support@github.com for help
+241 verbose git clone git@github.com:file:deps/phoenix_html Cloning into bare repository '/Users/felipeaquino/.npm/_git-remotes/git-github-com-file-deps-phoenix-html-50a27b71'...
+241 verbose git clone git@github.com:file:deps/phoenix_html fatal: remote error:
+241 verbose git clone git@github.com:file:deps/phoenix_html    is not a valid repository name
+241 verbose git clone git@github.com:file:deps/phoenix_html   Email support@github.com for help
+242 silly lockFile c83d6c1a-git-github-com-file-deps-phoenix git@github.com:file:deps/phoenix
+243 silly lockFile c83d6c1a-git-github-com-file-deps-phoenix git@github.com:file:deps/phoenix
+244 silly lockFile 50a27b71-ithub-com-file-deps-phoenix-html git@github.com:file:deps/phoenix_html
+245 silly lockFile 50a27b71-ithub-com-file-deps-phoenix-html git@github.com:file:deps/phoenix_html
+246 silly lockFile 25706d37-phoenix-file-deps-phoenix phoenix@file:deps/phoenix
+247 silly lockFile 25706d37-phoenix-file-deps-phoenix phoenix@file:deps/phoenix
+248 silly lockFile 3d88e48d-enix-html-file-deps-phoenix-html phoenix_html@file:deps/phoenix_html
+249 silly lockFile 3d88e48d-enix-html-file-deps-phoenix-html phoenix_html@file:deps/phoenix_html
+250 error notarget No compatible version found: phoenix@'file:deps/phoenix'
+250 error notarget Valid install targets:
+250 error notarget ["0.1.1-dev"]
+250 error notarget
+250 error notarget This is most likely not a problem with npm itself.
+250 error notarget In most cases you or one of your dependencies are requesting
+250 error notarget a package version that doesn't exist.
+251 error System Darwin 15.3.0
+252 error command "node" "/usr/local/bin/npm" "install"
+253 error cwd /Users/felipeaquino/Dev/projetos/elixir/hello_phoenix
+254 error node -v v0.10.28
+255 error npm -v 1.4.9
+256 error code ETARGET
+257 verbose exit [ 1, true ]
