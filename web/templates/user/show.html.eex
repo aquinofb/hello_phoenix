@@ -22,6 +22,11 @@
     <%= @user.number_of_pets %>
   </li>
 
+  <li>
+    <strong>Videos:</strong>
+    <%= @user.videos %>
+  </li>
+
 </ul>
 
 <%= link "Edit", to: user_path(@conn, :edit, @user) %>
