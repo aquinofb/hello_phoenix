@@ -1,15 +1,16 @@
 defmodule HelloPhoenix.PageController do
   use HelloPhoenix.Web, :controller
 
-  plug :teste
-
-  def index(conn, _params) do
-
-    render conn, "index.html"
+  def index(conn, params) do
+    IO.puts "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+    IO.puts "-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-="
+    conn
+      |> put_flash(:info, "Ola mestre")
+      |> assign(:teste, params["nome"])
+      |> render("index.html")
   end
 
-  def teste(conn, _) do
-    IO.puts "Yeah my friend"
-    conn
+  def test(conn, _params) do
+    render conn, "test.html"
   end
 end
